@@ -2372,14 +2372,14 @@ guiTypes = {
 
 			buttonType = {
 				name = "ethic_sane"
-				spriteType = "GFX_ethics_militarist"
+				spriteType = "GFX_ethics_sane"
 				position = { x = 10 y = 150 }
 				clicksound = interface
 			}
 			
 			buttonType = {
 				name = "ethic_sadistic"
-				spriteType = "GFX_ethics_xenophobe"
+				spriteType = "GFX_ethics_sadistic"
 				position = { x = 10 y = 200 }
 				clicksound = interface
 			}
@@ -2444,14 +2444,14 @@ guiTypes = {
 
 			buttonType = {
 				name = "ethic_fanatic_sane"
-				spriteType = "GFX_ethics_fanatic_militarist"
+				spriteType = "GFX_ethics_fanatic_sane"
 				position = { x = 10 y = 100 }
 				clicksound = interface
 			}
 			
 			buttonType = {
 				name = "ethic_fanatic_sadistic"
-				spriteType = "GFX_ethics_fanatic_xenophobe"
+				spriteType = "GFX_ethics_fanatic_sadistic"
 				position = { x = 10 y = 250 }
 				clicksound = interface
 			}
