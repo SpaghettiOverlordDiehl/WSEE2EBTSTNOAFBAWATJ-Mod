@@ -1,0 +1,23 @@
+wg_w_harvest = {
+	casus_belli = cb_w_harvest
+	defender_default = yes 
+	threat_multiplier = 1.0
+	hide_if_no_cb = yes
+	cede_claims = no
+	surrender_acceptance = 0
+	war_exhaustion = 1.0 
+	show_claims_in_description = no
+	potential = {
+		always = yes
+	}
+	possible = {
+		always = yes
+	}
+	on_status_quo = {
+
+	}
+	on_accept = {
+
+	}
+
+}
