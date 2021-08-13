@@ -30,6 +30,9 @@ civic_w_harvester = {
 		}
 	}
 		
+	
 	random_weight = { base = 5 }
-	modifier = { }
+	modifier = { 
+		planet_farmers_food_produces_mult = -0.5
+	}
 }
