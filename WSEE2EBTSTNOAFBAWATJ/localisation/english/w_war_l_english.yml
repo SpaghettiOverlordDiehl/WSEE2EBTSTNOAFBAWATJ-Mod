@@ -6,4 +6,5 @@
 # Harvesting
 casus_belli_cb_w_harvest: "Harvesting"
 war_goal_wg_w_harvest: "Harvest"
-war_goal_wg_w_harvest_desc: "TODO DESC HARVEST"
+war_goal_wg_w_harvest_desc: "War is waged to harvest the population of the enemy."
+war_goal_wg_w_harvest_tooltip: "The harvester will receive §G300§W £food£ for each population on §Yharvested§W planets"

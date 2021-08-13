@@ -1,0 +1,7 @@
+﻿l_english:
+  #######################
+ # Static Modifiers
+ ################
+
+w_harvested: "Harvested"
+w_harvested_desc: "This planet has been harvested and the population is still recovering."
