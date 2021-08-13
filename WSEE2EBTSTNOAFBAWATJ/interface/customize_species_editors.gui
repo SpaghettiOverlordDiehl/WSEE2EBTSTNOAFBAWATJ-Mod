@@ -2373,14 +2373,14 @@ guiTypes = {
 			buttonType = {
 				name = "ethic_sane"
 				spriteType = "GFX_ethics_militarist"
-				position = { x = 10 y = 100 }
+				position = { x = 10 y = 150 }
 				clicksound = interface
 			}
 			
 			buttonType = {
 				name = "ethic_sadistic"
 				spriteType = "GFX_ethics_xenophobe"
-				position = { x = 10 y = 150 }
+				position = { x = 10 y = 200 }
 				clicksound = interface
 			}
 
@@ -2445,7 +2445,7 @@ guiTypes = {
 			buttonType = {
 				name = "ethic_fanatic_sane"
 				spriteType = "GFX_ethics_fanatic_militarist"
-				position = { x = 10 y = 200 }
+				position = { x = 10 y = 100 }
 				clicksound = interface
 			}
 			
@@ -2520,7 +2520,7 @@ guiTypes = {
 			}
 			
 			### SELECTED ETHICS ###
-			
+
 			iconType = {
 				name = "ethic_san_selected"
 				spriteType = "GFX_ethic_selected"
