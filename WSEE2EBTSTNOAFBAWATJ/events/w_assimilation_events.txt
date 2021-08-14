@@ -5,14 +5,42 @@ country_event = {
     hide_window = yes
     is_triggered_only = yes
     immediate = {
-        if = {
-            has_valid_civic = civic_forced_therapy
-        }
+	set_variable =  { 
+		which = counted_pops
+		value = 0
+	}
         every_owned_pop = {
             if = {
                 pop_has_ethic = ethic_sadistic
             }
-            pop_force_add_ethic = ethic_sane
+            change_variable = {
+		        which = counted_pops
+		        value = 1
+	        }
         }
+	    modifier = {
+	    	job_institutionalized_add = counted_pops
+    	}
+	    country_event = {
+	    	id = w_assimilation_events.2
+	    	months = 3
+	    }
     }
 }
+
+country_event = {
+	id = w_assimilation_events.2
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		every_owned_pop = {
+			if = {
+                limit = { has_ethic = ethic_sadistic }
+                clear_ethos = yes
+				pop_change_ethic = ethic_sane
+			    unemploy_pop = yes
+			}
+		}
+	}
+}
+			

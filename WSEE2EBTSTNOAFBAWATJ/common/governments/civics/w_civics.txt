@@ -12,9 +12,6 @@ civic_therapy = {
             }
         }
     }
-    modifier = {
-
-    }
 }
 
 civic_forced_therapy = {
@@ -24,11 +21,18 @@ civic_forced_therapy = {
                 value = ethic_fanatic_sane
                 value = ethic_sane
             }
+            OR = {
+                value = ethic_authoritarian
+                value = ethic_fanatic_authoritarian
+            }
         }
         civics = {
             NOR = {
                 value = civic_therapy
             }
         }
+    }
+    modifier = {
+	job_institutionalized_per_pop = 1
     }
 }
