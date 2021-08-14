@@ -1,0 +1,18 @@
+namespace = w_assimilation_events
+
+country_event = {
+    id = w_assimilation_events.1
+    hide_window = yes
+    is_triggered_only = yes
+    immediate = {
+        if = {
+            has_valid_civic = civic_forced_therapy
+        }
+        every_owned_pop = {
+            if = {
+                pop_has_ethic = ethic_sadistic
+            }
+            pop_force_add_ethic = ethic_sane
+        }
+    }
+}

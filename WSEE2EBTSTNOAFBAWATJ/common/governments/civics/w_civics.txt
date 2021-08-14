@@ -1,0 +1,34 @@
+civic_therapy = {
+    possible = {
+        ethics = {
+            OR = {
+                value = ethic_fanatic_sane
+                value = ethic_sane
+            }
+        }
+        civics = {
+            NOR = {
+                value = civic_forced_therapy
+            }
+        }
+    }
+    modifier = {
+
+    }
+}
+
+civic_forced_therapy = {
+    possible = {
+        ethics = {
+            OR = {
+                value = ethic_fanatic_sane
+                value = ethic_sane
+            }
+        }
+        civics = {
+            NOR = {
+                value = civic_therapy
+            }
+        }
+    }
+}
