@@ -11,6 +11,7 @@ ethic_fanatic_sane = {
 
 	tags = {}
 
+
 	random_weight = { value = 150 }
 }
 
@@ -73,6 +74,7 @@ ethic_fanatic_sadistic = {
 	country_modifier = {}
 
 	tags = {}
+
 
 	random_weight = { value = 150 }
 }

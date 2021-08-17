@@ -1,0 +1,45 @@
+namespace = w_menace_events
+
+country_event = {
+    id = w_menace_events.1
+    hide_window = yes
+    is_triggered_only = yes
+    trigger = {
+        has_technology = tech_w_corruption_theory
+        has_resource = { type = corruption amount > 1000 }
+        owner = {
+            NOT = {
+                has_ethic = ethic_gestalt_consciousness
+            }
+        }
+    }
+    immediate = {
+        random_list = {
+            75 = {}
+            25 = {
+                country_event = {
+		            id = w_menace_events.2
+                }
+            }
+        }
+    }
+}
+
+country_event = {
+    id = w_menace_events.2
+    is_triggered_only = yes
+    title = "w_menace_events.1a.name"
+    picture = GFX_evt_spy_network
+    desc = {
+        text = w_menace_events.1a.desc
+    }
+    immediate = {
+        add_modifier = {
+             modifier = w_dread
+             months = 12
+        }
+    }
+    option = {
+        name = WORRYING
+    }
+}	

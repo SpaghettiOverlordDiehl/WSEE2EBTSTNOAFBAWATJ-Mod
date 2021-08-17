@@ -165,3 +165,20 @@
  tech_w_sapient_skeleton_printers_desc: "Sapient bones are perhpas the most efficient armor in the galaxy. All of the bio enhancements combined with the nano machine accelerated regeneration made the printed bones one of the toughest to destory materials in the galaxy. By adding sapience to them, they are capable of surviving all but black holes with relative ease."
  tech_w_sapient_brain_printers: "Sapient Brain Printing"
  tech_w_sapient_brain_printers_desc: "We are now capable of printing brains that are fully conscious and ready to become shields...feels a little wasteful though."
+
+ tech_w_psionic_mages:0 "Psionic Mages"
+ tech_w_psionic_mages_desc:0 "Contrary to other psionics, psionic mages are both very unstable and very powerful. A glass cannon if you will."
+ tech_w_mage_soldiers:0 "Mage Soldiers"
+ tech_w_mage_soldiers_desc:0 "By empolying psionic mages in our regular armies we can drasticaly increase their firepower with little material loss."
+ tech_w_elite_mage_armies:0 "Mage Armies"
+ tech_w_elite_mage_armies_desc:0 "By deploying entire armies made of psionic mages we can crush enemy resisitance in record speeds."
+
+###################
+#Phys Tech
+###########
+
+ tech_w_corruption_theory:0 "Corruption Theory"
+ tech_w_corruption_theory_desc:0 "Our lead scientists have theorized a substance of extra-physical properties, dubbed corruption."
+ tech_w_applied_corruption:0 "Applied Corruption"
+ tech_w_applied_corruption_desc:0 "Our scientists have figured out how to produce corruption at higher rates"
+
